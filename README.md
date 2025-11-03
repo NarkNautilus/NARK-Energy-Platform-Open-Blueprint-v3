@@ -21,7 +21,7 @@ The core philosophy of this project is a rejection of non-physical claims in WEC
 1. 💡 Core Philosophy: Physical Consistency First
 The NARK platform addresses the primary failure mode of many WEC concepts: ambiguity. By placing the device in a Controlled Basin Facility (simulated here), we eliminate confounding variables (e.g., yaw, non-stationary seas) and transform the problem into a reproducible, instrumented one.
 Our central claim: Optimal wave power absorption is a solvable control problem, not a black box. This repository proves it by mapping every theoretical claim from the manuscript to a specific, working function in the code.
-| Manuscript Concept (Paper) | Code Implementation (nark_sim_v2.2.py) |
+| Manuscript Concept (Paper) | Code Implementation |
 |---|---|
 | Section 2.1: Wave Power & Capture Width Bounds | compute_theory_broadband(): Establishes the P_{max} bound. |
 | Section 2.3: Optimal Absorption (Complex-Conjugate) | NarkOptimalController.update_gains(): Solves for K_{ctrl} and B_{ctrl}. |
