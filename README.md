@@ -116,7 +116,6 @@ Execute Simulation
 Navigate to the repository directory and run the Python script:
 python ./nark_sim_v2.2.py
 
-(Note: The script is named nark_sim_v2.2.py based on your provided file; adjust if you have renamed it.)
 Expected Output
 The script will run all three test scenarios (A, C, B/D) and print the final verification report to your console:
 NARK v2.2 Final Clean Fix — Executing...
